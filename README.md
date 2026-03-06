@@ -16,12 +16,22 @@ Static marketing site for Notisaver. This folder is isolated from the Android ap
 
 ## Deploy
 
-1. Push the repository to GitHub.
-2. In Netlify, connect the repository.
-3. Set the publish directory to `notisaver-appstore`.
-4. Leave the build command empty.
+### Cloudflare Pages
 
-If you keep the root `netlify.toml` file, Netlify should pick up the publish directory automatically.
+1. Push the repository to GitHub.
+2. In Cloudflare Pages, connect the repository.
+3. Use:
+   - Framework preset: `None`
+   - Build command: `exit 0`
+   - Build output directory: `.`
+   - Root directory: leave empty
+4. Deploy from branch `main`.
+
+The repo includes `_redirects` and `_headers` files for Cloudflare Pages.
+
+### Netlify
+
+The repo also keeps `netlify.toml` if you ever want Netlify as a backup host.
 
 ## Notes
 
