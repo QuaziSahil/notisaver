@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Notisaver social cover</title>
+  <desc id="desc">Promotional artwork for the Notisaver appstore website.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="54" x2="1076" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1b1410"/>
+      <stop offset=".55" stop-color="#0f0d0c"/>
+      <stop offset="1" stop-color="#070605"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="316" y1="82" x2="920" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7d08a"/>
+      <stop offset=".45" stop-color="#efb04b"/>
+      <stop offset="1" stop-color="#9d5122"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1050" cy="126" r="166" fill="#f3c56b" opacity=".09"/>
+  <circle cx="148" cy="520" r="188" fill="#ff9c41" opacity=".11"/>
+  <rect x="690" y="70" width="330" height="500" rx="48" fill="#16120f" stroke="#f7d08a" stroke-opacity=".24"/>
+  <rect x="718" y="112" width="274" height="34" rx="17" fill="#2f241c"/>
+  <rect x="718" y="174" width="274" height="84" rx="28" fill="#201711"/>
+  <rect x="742" y="198" width="108" height="10" rx="5" fill="#f7d08a"/>
+  <rect x="742" y="220" width="188" height="10" rx="5" fill="#927c63"/>
+  <rect x="718" y="288" width="274" height="84" rx="28" fill="#201711"/>
+  <rect x="742" y="312" width="136" height="10" rx="5" fill="#f7d08a"/>
+  <rect x="742" y="334" width="205" height="10" rx="5" fill="#927c63"/>
+  <rect x="718" y="402" width="274" height="130" rx="28" fill="#201711"/>
+  <path d="M742 448h142" stroke="#f7d08a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M742 474h212" stroke="#927c63" stroke-width="12" stroke-linecap="round"/>
+  <rect x="118" y="126" width="118" height="118" rx="36" fill="url(#gold)"/>
+  <rect x="140" y="146" width="74" height="82" rx="26" fill="#17120f"/>
+  <path d="M152 170c4-12 14-18 26-18 9 0 16 3 22 9l-8 9c-4-3-8-4-13-4-8 0-13 3-16 9h23v10h-35z" fill="#f5d18d"/>
+  <rect x="160" y="192" width="22" height="7" rx="3.5" fill="#f5d18d"/>
+  <text x="118" y="326" fill="#f4efe6" font-family="Fraunces, serif" font-size="74" font-weight="700">Notisaver Appstore</text>
+  <text x="118" y="388" fill="#ccbda2" font-family="Space Grotesk, sans-serif" font-size="28">Notification history, private reading, encrypted backup, and launch-ready support pages.</text>
+  <text x="118" y="458" fill="#f7d08a" font-family="Space Grotesk, sans-serif" font-size="24" letter-spacing="3">ANDROID 8+  |  SEARCH  |  AI DIGEST  |  EXPORT</text>
+</svg>

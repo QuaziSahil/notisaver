@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Notisaver logo</title>
+  <desc id="desc">Rounded square mark with a gold notification arc and a vault style center.</desc>
+  <defs>
+    <linearGradient id="bg" x1="14" y1="12" x2="112" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f9d48f"/>
+      <stop offset=".52" stop-color="#efb24d"/>
+      <stop offset="1" stop-color="#a4531f"/>
+    </linearGradient>
+    <linearGradient id="core" x1="36" y1="34" x2="92" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15110f"/>
+      <stop offset="1" stop-color="#2d1e15"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="108" height="108" rx="30" fill="url(#bg)"/>
+  <rect x="30" y="26" width="68" height="76" rx="24" fill="url(#core)"/>
+  <path d="M42 48c4-13 16-20 30-20 10 0 19 3 26 10l-9 10c-5-4-10-6-17-6-10 0-16 4-20 12h26v12H40z" fill="#f7d290"/>
+  <rect x="50" y="68" width="28" height="8" rx="4" fill="#f7d290"/>
+  <circle cx="86" cy="42" r="8" fill="#fff2d1"/>
+</svg>

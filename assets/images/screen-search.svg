@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Notisaver search screen mockup</title>
+  <desc id="desc">A stylized preview of the Notisaver search and filtering interface.</desc>
+  <rect width="800" height="1600" rx="64" fill="#0d0b0a"/>
+  <circle cx="580" cy="220" r="190" fill="#f2b24d" opacity=".08"/>
+  <text x="72" y="122" fill="#f4efe6" font-family="Space Grotesk, sans-serif" font-size="32">9:41</text>
+  <text x="72" y="210" fill="#f7d08a" font-family="Fraunces, serif" font-size="72">Search Vault</text>
+  <rect x="72" y="266" width="656" height="104" rx="32" fill="#1b1512" stroke="#f7d08a" stroke-opacity=".2"/>
+  <path d="M126 318a24 24 0 1 1 48 0a24 24 0 1 1 -48 0" fill="none" stroke="#f7d08a" stroke-width="8"/>
+  <path d="M166 358l18 18" stroke="#f7d08a" stroke-width="8" stroke-linecap="round"/>
+  <text x="214" y="332" fill="#c9bea9" font-family="Space Grotesk, sans-serif" font-size="28">"payment" in last 7 days</text>
+  <rect x="72" y="414" width="144" height="54" rx="27" fill="#f7d08a"/>
+  <rect x="232" y="414" width="148" height="54" rx="27" fill="#1b1512" stroke="#f7d08a" stroke-opacity=".2"/>
+  <rect x="396" y="414" width="164" height="54" rx="27" fill="#1b1512" stroke="#f7d08a" stroke-opacity=".2"/>
+  <text x="120" y="449" fill="#17120f" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="700">Urgent</text>
+  <text x="278" y="449" fill="#f4efe6" font-family="Space Grotesk, sans-serif" font-size="24">Finance</text>
+  <text x="448" y="449" fill="#f4efe6" font-family="Space Grotesk, sans-serif" font-size="24">This week</text>
+  <rect x="72" y="518" width="656" height="180" rx="38" fill="#16110e"/>
+  <rect x="72" y="730" width="656" height="180" rx="38" fill="#16110e"/>
+  <rect x="72" y="942" width="656" height="180" rx="38" fill="#16110e"/>
+  <rect x="72" y="1154" width="656" height="180" rx="38" fill="#16110e"/>
+  <path d="M122 590h182" stroke="#f7d08a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M122 624h408" stroke="#86745e" stroke-width="14" stroke-linecap="round"/>
+  <path d="M122 802h164" stroke="#f7d08a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M122 836h450" stroke="#86745e" stroke-width="14" stroke-linecap="round"/>
+  <path d="M122 1014h144" stroke="#f7d08a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M122 1048h476" stroke="#86745e" stroke-width="14" stroke-linecap="round"/>
+  <path d="M122 1226h126" stroke="#f7d08a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M122 1260h432" stroke="#86745e" stroke-width="14" stroke-linecap="round"/>
+</svg>

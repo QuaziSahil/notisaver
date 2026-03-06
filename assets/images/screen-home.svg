@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Notisaver home screen mockup</title>
+  <desc id="desc">A stylized preview of the Notisaver dashboard.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="90" x2="720" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1b1410"/>
+      <stop offset=".5" stop-color="#100d0c"/>
+      <stop offset="1" stop-color="#080706"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="212" y1="180" x2="560" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd89d"/>
+      <stop offset=".5" stop-color="#f2b24d"/>
+      <stop offset="1" stop-color="#a4521d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1600" rx="64" fill="url(#bg)"/>
+  <circle cx="620" cy="220" r="190" fill="#f2b24d" opacity=".09"/>
+  <circle cx="120" cy="1320" r="180" fill="#ff9f4a" opacity=".1"/>
+  <text x="72" y="122" fill="#f4efe6" font-family="Space Grotesk, sans-serif" font-size="32">9:41</text>
+  <text x="72" y="210" fill="#f5d7a1" font-family="Space Grotesk, sans-serif" font-size="24" letter-spacing="4">NOTISAVER</text>
+  <text x="72" y="272" fill="#f7f1e6" font-family="Fraunces, serif" font-size="72">Notification Hub</text>
+  <rect x="72" y="330" width="656" height="140" rx="38" fill="#1b1512" stroke="#f7d08a" stroke-opacity=".24"/>
+  <text x="112" y="390" fill="#f7d08a" font-family="Space Grotesk, sans-serif" font-size="24">Today</text>
+  <text x="112" y="430" fill="#f4efe6" font-family="Space Grotesk, sans-serif" font-size="48" font-weight="700">126 notifications saved</text>
+  <rect x="72" y="516" width="312" height="180" rx="34" fill="#1a1411"/>
+  <rect x="416" y="516" width="312" height="180" rx="34" fill="#1a1411"/>
+  <rect x="72" y="730" width="656" height="220" rx="42" fill="#16110e" stroke="#f7d08a" stroke-opacity=".14"/>
+  <rect x="104" y="766" width="120" height="46" rx="23" fill="url(#gold)"/>
+  <text x="130" y="798" fill="#17120f" font-family="Space Grotesk, sans-serif" font-size="24" font-weight="700">Live</text>
+  <text x="104" y="860" fill="#f4efe6" font-family="Space Grotesk, sans-serif" font-size="36" font-weight="700">Private chat preview</text>
+  <text x="104" y="912" fill="#c9bea9" font-family="Space Grotesk, sans-serif" font-size="28">Read messages without opening the source app.</text>
+  <rect x="72" y="990" width="656" height="140" rx="36" fill="#17120f"/>
+  <rect x="72" y="1158" width="656" height="140" rx="36" fill="#17120f"/>
+  <rect x="72" y="1326" width="656" height="180" rx="42" fill="#17120f"/>
+  <path d="M120 1058h150" stroke="#f7d08a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M120 1092h480" stroke="#86745e" stroke-width="14" stroke-linecap="round"/>
+  <path d="M120 1226h166" stroke="#f7d08a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M120 1260h440" stroke="#86745e" stroke-width="14" stroke-linecap="round"/>
+  <text x="104" y="1408" fill="#f4efe6" font-family="Space Grotesk, sans-serif" font-size="36" font-weight="700">Daily digest ready</text>
+  <text x="104" y="1462" fill="#c9bea9" font-family="Space Grotesk, sans-serif" font-size="28">3 urgent, 7 important, 38 casual</text>
+</svg>
