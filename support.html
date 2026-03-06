@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Support | Notisaver Appstore</title>
-  <meta name="description" content="Support page for Notisaver with troubleshooting tips and contact details.">
+  <title>Support | Notisaver</title>
+  <meta name="description" content="Support, troubleshooting, install help, and contact routes for Notisaver.">
   <meta name="theme-color" content="#0f0d0c">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,6 +35,7 @@
           <a href="index.html">Home</a>
           <a href="privacy.html">Privacy</a>
           <a href="terms.html">Terms</a>
+          <a href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
@@ -43,9 +44,24 @@
       <div class="container legal-shell">
         <header class="page-hero">
           <p class="eyebrow">Support</p>
-          <h1>Troubleshooting, contact, and launch support.</h1>
-          <p>Use this page as the support destination linked from GitHub, Netlify, or your final store listing.</p>
+          <h1>Install help, troubleshooting, and direct contact for Notisaver.</h1>
+          <p>Use this page when users need help with download, permissions, privacy, backup, or notification capture behavior.</p>
         </header>
+
+        <section class="legal-intro-grid" aria-label="Support overview">
+          <article class="info-card">
+            <h2>APK install</h2>
+            <p>Download the APK, allow installation from your browser if Android prompts for it, then open the file to finish setup.</p>
+          </article>
+          <article class="info-card">
+            <h2>Capture issues</h2>
+            <p>Most issues come from notification access, battery restrictions, or app-level exclusions inside Notisaver.</p>
+          </article>
+          <article class="info-card">
+            <h2>Contact route</h2>
+            <p>If the FAQ does not solve it, use the <a class="inline-link" href="contact.html">contact page</a> so the message reaches the support inbox.</p>
+          </article>
+        </section>
 
         <section class="support-grid">
           <article class="support-card">
@@ -54,16 +70,16 @@
               <li>Confirm notification access is enabled for Notisaver.</li>
               <li>Disable battery optimization for reliable background capture.</li>
               <li>Verify the source app is not blocked inside per-app controls.</li>
-              <li>Restart the listener service after major Android updates.</li>
+              <li>Restart the listener service after Android system updates.</li>
             </ul>
           </article>
           <article class="support-card">
-            <h2>What to include in support email</h2>
+            <h2>Include these details</h2>
             <ul class="support-list">
               <li>Android version and device model</li>
-              <li>App version or preview build details</li>
-              <li>Short description of the problem</li>
-              <li>Whether the issue affects capture, export, backup, or lock features</li>
+              <li>App version or APK filename</li>
+              <li>Short problem description and expected behavior</li>
+              <li>Whether the issue affects capture, export, backup, or app lock</li>
             </ul>
           </article>
         </section>
@@ -95,19 +111,24 @@
                 <p>Store exports only in trusted locations, use device-level protection, and prefer encrypted backup flows where available.</p>
               </div>
             </article>
+            <article class="faq-item">
+              <button class="faq-button" type="button" aria-expanded="false">
+                How do I install the APK safely?
+              </button>
+              <div class="faq-panel" hidden>
+                <p>Download the APK from the official Notisaver site, confirm the filename, and install only on your own Android device after Android asks for permission.</p>
+              </div>
+            </article>
           </div>
         </section>
 
-        <section class="contact-panel">
-          <div>
-            <p class="eyebrow">Contact</p>
-            <h2>Email support</h2>
-            <p>For launch questions, bug reports, and publication updates, contact the owner directly.</p>
-          </div>
-          <div class="contact-meta">
-            <p><strong>Name:</strong> Quazi Sahil Mohammad</p>
-            <p><strong>Email:</strong> <a href="mailto:peakliterature@gmail.com">peakliterature@gmail.com</a></p>
-            <p><strong>Location:</strong> India</p>
+        <section class="support-callout">
+          <p class="eyebrow">Contact support</p>
+          <h2>Need a reply instead of self-service steps?</h2>
+          <p>Send the device model, Android version, and a short description through the contact form. That gives the support inbox the context needed to answer faster.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="contact.html">Open contact form</a>
+            <a class="button button-secondary" href="mailto:peakliterature@gmail.com">Email directly</a>
           </div>
         </section>
       </div>
@@ -128,11 +149,12 @@
           <a href="index.html">Home</a>
           <a href="privacy.html">Privacy</a>
           <a href="terms.html">Terms</a>
-          <a href="mailto:peakliterature@gmail.com">Email</a>
+          <a href="contact.html">Contact</a>
         </nav>
       </div>
       <div class="container footer-meta">
-        <p>&copy; <span data-year></span> Quazi Sahil Mohammad. All rights reserved.</p>
+        <p>Support inbox: peakliterature@gmail.com</p>
+        <p>&copy; <span data-year></span> Notisaver. All rights reserved.</p>
       </div>
     </footer>
   </div>

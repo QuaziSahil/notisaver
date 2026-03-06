@@ -8,6 +8,8 @@ Static marketing site for Notisaver. This folder is isolated from the Android ap
 - `privacy.html` - privacy policy
 - `terms.html` - terms of service
 - `support.html` - support page
+- `contact.html` - hosted contact form page
+- `contact-success.html` - form success page
 - `assets/css/styles.css` - shared styling
 - `assets/js/site.js` - nav, FAQ, and carousel behavior
 - `assets/icons/` - logo and favicon SVGs
@@ -28,6 +30,11 @@ Static marketing site for Notisaver. This folder is isolated from the Android ap
 4. Deploy from branch `main`.
 
 The repo includes `_redirects` and `_headers` files for Cloudflare Pages.
+
+## Contact form
+
+- The contact page uses `formsubmit.co` to forward submissions to `peakliterature@gmail.com`.
+- The first live submission may trigger a confirmation email from FormSubmit before forwarding is fully active.
 
 ### Netlify
 

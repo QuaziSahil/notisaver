@@ -5,6 +5,7 @@ const navToggle = document.querySelector(".nav-toggle");
 const siteNav = document.querySelector(".site-nav");
 const faqButtons = document.querySelectorAll(".faq-button");
 const carousel = document.querySelector("[data-carousel]");
+const contactForms = document.querySelectorAll("[data-contact-form]");
 
 yearNodes.forEach((node) => {
   node.textContent = new Date().getFullYear();
@@ -74,3 +75,16 @@ if (carousel) {
     }, 5000);
   }
 }
+
+contactForms.forEach((form) => {
+  const nextInput = form.querySelector('input[name="_next"]');
+  const urlInput = form.querySelector('input[name="_url"]');
+
+  if (nextInput && window.location.protocol.startsWith("http")) {
+    nextInput.value = new URL("contact-success.html", window.location.href).toString();
+  }
+
+  if (urlInput) {
+    urlInput.value = window.location.href;
+  }
+});
