@@ -318,7 +318,6 @@ h3 {
 .section-heading p,
 .slide-copy p,
 .pricing-card p,
-.review-card p,
 .step-card p,
 .faq-panel p,
 .cta-copy p,
@@ -380,6 +379,13 @@ h3 {
   background: rgba(255, 255, 255, 0.03);
 }
 
+.pricing-card .button {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
 .link-button {
   color: var(--muted-strong);
   border-color: var(--stroke);
@@ -402,7 +408,6 @@ h3 {
 .metric-row li,
 .feature-card,
 .pricing-card,
-.review-card,
 .step-card,
 .support-card,
 .qr-card,
@@ -470,7 +475,6 @@ h3 {
 
 .status-grid,
 .feature-grid,
-.review-grid,
 .steps-grid,
 .pricing-grid,
 .support-grid,
@@ -511,7 +515,6 @@ h3 {
 }
 
 .feature-grid,
-.review-grid,
 .steps-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -536,7 +539,6 @@ h3 {
 }
 
 .feature-card,
-.review-card,
 .step-card,
 .pricing-card,
 .support-card,
@@ -564,8 +566,7 @@ h3 {
 }
 
 .feature-index,
-.step-card span,
-.review-score {
+.step-card span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -611,10 +612,33 @@ h3 {
 
 .carousel-controls {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 0.7rem;
   padding: 0 1.5rem 1.5rem;
+}
+
+.carousel-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid var(--stroke);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.carousel-arrow:hover,
+.carousel-arrow:focus-visible {
+  background: rgba(255, 227, 166, 0.1);
+  border-color: var(--stroke-strong);
 }
 
 .dot-button {
@@ -687,15 +711,35 @@ h3 {
 
 .faq-button {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   padding: 1.15rem 1.2rem;
   border: 0;
   color: var(--text);
   text-align: left;
   background: transparent;
+  cursor: pointer;
+}
+
+.faq-button::after {
+  content: "";
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg);
+  transition: transform 250ms ease;
 }
 
 .faq-button[aria-expanded="true"] {
   color: var(--accent);
+}
+
+.faq-button[aria-expanded="true"]::after {
+  transform: rotate(-135deg);
 }
 
 .faq-panel {
@@ -716,6 +760,24 @@ h3 {
   display: block;
   margin-top: 1rem;
   margin-bottom: 0.4rem;
+}
+
+.download-meta {
+  padding: 0;
+  margin: 0.75rem 0 1rem;
+  list-style: none;
+  text-align: left;
+}
+
+.download-meta li {
+  padding: 0.4rem 0;
+  color: var(--muted-strong);
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(255, 227, 166, 0.08);
+}
+
+.download-meta li:last-child {
+  border-bottom: none;
 }
 
 .qr-card code {
@@ -904,6 +966,23 @@ h3 {
   margin-top: 2rem;
 }
 
+.story-signoff {
+  margin-top: 1rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
@@ -953,7 +1032,6 @@ h3 {
   }
 
   .feature-grid,
-  .review-grid,
   .legal-intro-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1010,7 +1088,6 @@ h3 {
 
   .metric-row,
   .feature-grid,
-  .review-grid,
   .steps-grid,
   .form-grid,
   .legal-intro-grid {
@@ -1078,7 +1155,6 @@ h3 {
   .legal-shell,
   .feature-card,
   .pricing-card,
-  .review-card,
   .step-card,
   .support-card,
   .qr-card,

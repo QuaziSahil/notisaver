@@ -41,6 +41,8 @@ faqButtons.forEach((button) => {
 if (carousel) {
   const slides = Array.from(carousel.querySelectorAll("[data-slide]"));
   const dots = Array.from(carousel.querySelectorAll("[data-slide-to]"));
+  const prevBtn = carousel.querySelector(".carousel-prev");
+  const nextBtn = carousel.querySelector(".carousel-next");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   let activeIndex = slides.findIndex((slide) => slide.classList.contains("is-active"));
 
@@ -69,6 +71,18 @@ if (carousel) {
     });
   });
 
+  if (prevBtn) {
+    prevBtn.addEventListener("click", () => {
+      showSlide((activeIndex - 1 + slides.length) % slides.length);
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener("click", () => {
+      showSlide((activeIndex + 1) % slides.length);
+    });
+  }
+
   if (!reduceMotion && slides.length > 1) {
     window.setInterval(() => {
       showSlide((activeIndex + 1) % slides.length);
@@ -88,3 +102,21 @@ contactForms.forEach((form) => {
     urlInput.value = window.location.href;
   }
 });
+
+const revealElements = document.querySelectorAll(".reveal");
+
+if (revealElements.length > 0) {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  revealElements.forEach((element) => revealObserver.observe(element));
+}
