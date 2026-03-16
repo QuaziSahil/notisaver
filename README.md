@@ -14,7 +14,7 @@ Static marketing site for Notisaver. This folder is isolated from the Android ap
 - `assets/js/site.js` - nav, FAQ, and carousel behavior
 - `assets/icons/` - logo and favicon SVGs
 - `assets/images/` - preview artwork and screenshots
-- `downloads/notisaver-v1.0.0.apk` - direct Android download served by the site
+- `downloads/notisaver-v1.0.2.apk` - direct Android download served by the site
 
 ## Deploy
 
@@ -44,4 +44,4 @@ The repo also keeps `netlify.toml` if you ever want Netlify as a backup host.
 
 - The five promotional screenshots from `Downloads` are now wired into the screenshot carousel.
 - The current release APK is copied into the site so Netlify can serve it directly.
-- If you publish a new app version later, replace `downloads/notisaver-v1.0.0.apk` and update the filename in `index.html`.
+- If you publish a new app version later, replace `downloads/notisaver-v1.0.2.apk` and update the filename in `index.html`.

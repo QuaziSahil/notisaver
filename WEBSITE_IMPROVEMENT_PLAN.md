@@ -44,11 +44,11 @@ These are inside the feature cards (section `#features`) and screenshot carousel
 **What to do in `index.html`:**
 - Inside the FREE pricing card (`<article class="pricing-card">`), after the `<ul class="plan-list">` closing tag, add:
   ```html
-  <a class="button button-secondary" href="downloads/notisaver-v1.0.1.apk" download>Download Free</a>
+  <a class="button button-secondary" href="downloads/notisaver-v1.0.2.apk" download>Download Free</a>
   ```
 - Inside the PRO pricing card (`<article class="pricing-card pricing-card-featured">`), after its `<ul class="plan-list">` closing tag, add:
   ```html
-  <a class="button button-primary" href="downloads/notisaver-v1.0.1.apk" download>Get Pro (in-app)</a>
+  <a class="button button-primary" href="downloads/notisaver-v1.0.2.apk" download>Get Pro (in-app)</a>
   ```
 
 **What to do in `styles.css`:**
@@ -120,23 +120,23 @@ These are inside the feature cards (section `#features`) and screenshot carousel
 ```html
 <img src="assets/icons/logo-mark.svg" alt="" width="120" height="120">
 <strong>Version 1.0.1 APK</strong>
-<p>File: <code>notisaver-v1.0.1.apk</code></p>
+<p>File: <code>notisaver-v1.0.2.apk</code></p>
 <p>Android 8.0 and above</p>
-<p>Direct path: <code>/downloads/notisaver-v1.0.1.apk</code></p>
-<a class="button button-secondary" href="downloads/notisaver-v1.0.1.apk" download>Direct file link</a>
+<p>Direct path: <code>/downloads/notisaver-v1.0.2.apk</code></p>
+<a class="button button-secondary" href="downloads/notisaver-v1.0.2.apk" download>Direct file link</a>
 ```
 
 **Replace with:**
 ```html
 <img src="assets/icons/logo-mark.svg" alt="" width="80" height="80">
-<strong>Notisaver v1.0.1</strong>
+<strong>Notisaver v1.0.2</strong>
 <ul class="download-meta">
-  <li>📦 Size: 6.82 MB</li>
+  <li>📦 Size: 6.84 MB</li>
   <li>📱 Android 8.0+</li>
   <li>🔒 Signed release build</li>
   <li>✅ VirusTotal: Clean</li>
 </ul>
-<a class="button button-secondary" href="downloads/notisaver-v1.0.1.apk" download>Download APK</a>
+<a class="button button-secondary" href="downloads/notisaver-v1.0.2.apk" download>Download APK</a>
 ```
 
 **Add to `styles.css`:**
